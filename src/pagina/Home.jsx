@@ -46,7 +46,7 @@ function Home() {
     <div>
       <h1>Personajes</h1>
 
-      <select onChange={(e) => setEstado(e.target.value)}>
+      <select value={estado}onChange={(e) => {setEstado(e.target.value);setPagina(1);}}>
         <option value="">Todos</option>
         <option value="alive">Vivo</option>
         <option value="dead">Muerto</option>

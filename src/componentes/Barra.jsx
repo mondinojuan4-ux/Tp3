@@ -8,6 +8,7 @@ function Barra() {
       <div>
         <Link to="/">Home</Link>
         <Link to="/comparar">Comparar personajes</Link>
+        <Link to="/buscar-episodios">Buscar episodios</Link>
       </div>
     </nav>
   );

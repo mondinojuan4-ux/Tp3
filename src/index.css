@@ -299,3 +299,24 @@ button {
 
   font-weight: bold;
 }
+.info-personaje {
+  background: #111827;
+
+  width: 350px;
+
+  margin: 20px auto;
+
+  padding: 20px;
+
+  border-radius: 15px;
+
+  text-align: left;
+
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.info-personaje p {
+  margin: 12px 0;
+
+  font-size: 18px;
+}

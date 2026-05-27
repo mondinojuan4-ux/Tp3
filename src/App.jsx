@@ -6,6 +6,8 @@ import Home from "./pagina/Home";
 import DetallesPersonajes from "./pagina/DetallesPersonajes";
 import DetallesEpisodios from "./pagina/DetallesEpisodios";
 import Comparar from "./pagina/Comparar";
+import BuscarEpisodios from "./pagina/BuscarEpisodios";
+
 
 import "./App.css";
 
@@ -27,7 +29,14 @@ function App() {
           element={<DetallesEpisodios />}
         />
 
-        <Route path="/comparar" element={<Comparar />} />
+        <Route
+          path="/comparar"
+          element={<Comparar />}
+        />
+        <Route
+          path="/buscar-episodios"
+         element={<BuscarEpisodios />}
+        />
       </Routes>
     </>
   );

@@ -56,17 +56,37 @@ function DetallesPersonajes() {
       alt={personaje.name}
     />
 
-    <p>
-      <strong>Estado:</strong> {personaje.status}
-    </p>
+    <div className="info-personaje">
+      <p>
+        <strong>ID:</strong> {personaje.id}
+      </p>
 
-    <p>
-      <strong>Especie:</strong> {personaje.species}
-    </p>
+      <p>
+        <strong>Estado:</strong> {personaje.status}
+      </p>
 
-    <p>
-      <strong>Género:</strong> {personaje.gender}
-    </p>
+      <p>
+        <strong>Especie:</strong> {personaje.species}
+      </p>
+
+      <p>
+        <strong>Género:</strong> {personaje.gender}
+      </p>
+
+      <p>
+        <strong>Origen:</strong> {personaje.origin.name}
+      </p>
+
+      <p>
+        <strong>Ubicación actual:</strong>{" "}
+        {personaje.location.name}
+      </p>
+
+      <p>
+        <strong>Cantidad de episodios:</strong>{" "}
+        {personaje.episode.length}
+      </p>
+    </div>
 
     <h2>Episodios</h2>
 
