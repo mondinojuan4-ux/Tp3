@@ -1,10 +1,8 @@
 function Pagination({ pagina, setPagina }) {
   return (
     <div className="paginacion">
-      <button
-        onClick={() => setPagina(pagina - 1)}
-        disabled={pagina === 1}
-      >
+      <button onClick={() => setPagina(pagina - 1)} 
+      disabled={pagina === 1}>
         Anterior
       </button>
 

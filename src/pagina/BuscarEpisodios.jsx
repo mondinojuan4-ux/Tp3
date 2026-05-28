@@ -61,9 +61,7 @@ function BuscarEpisodios() {
 
       {loading && <Loading />}
 
-      {error && (
-        <Error />
-      )}
+      {error && ( <Error /> )}
 
       <div className="contenedor">
         {episodios.map((ep) => (
